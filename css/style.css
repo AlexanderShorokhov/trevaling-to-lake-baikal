@@ -1,5 +1,32 @@
 body {
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.contact-list{
+  list-style: none;
+}
+
+.logo-title::before{
+  content: '';
+  display: block;
+  width: 54px;
+  height: 54px;
+  background-image: url(../images/logo.svg);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -18,4 +45,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+}
+.categories-list{
+   display: flex;
+  flex-wrap: wrap;
 }
